@@ -8678,10 +8678,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="87.63" y="168.91" size="1.778" layer="97">U2</text>
-<text x="97.79" y="168.91" size="1.778" layer="97">U2</text>
-<text x="120.65" y="168.91" size="1.778" layer="97">IC1</text>
-<text x="109.22" y="168.91" size="1.778" layer="97">U1</text>
+<text x="87.63" y="168.91" size="1.778" layer="97">U1</text>
+<text x="97.79" y="168.91" size="1.778" layer="97">U1</text>
+<text x="109.22" y="168.91" size="1.778" layer="97">IC1</text>
+<text x="120.65" y="168.91" size="1.778" layer="97">IC2</text>
 <text x="132.08" y="168.91" size="1.778" layer="97">MK1</text>
 <text x="12.7" y="26.67" size="1.778" layer="97">Optional IO</text>
 </plain>
@@ -9208,13 +9208,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="RB4" class="0">
 <segment>
-<wire x1="133.35" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
-<label x="144.78" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="35.56" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 <label x="45.72" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RB4"/>
+<wire x1="132.08" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<label x="144.78" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RB5" class="0">
