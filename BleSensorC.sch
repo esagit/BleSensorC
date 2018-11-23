@@ -7791,7 +7791,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 </package>
-<package name="RN4871" urn="urn:adsk.eagle:footprint:6331358/4" library_version="33" library_locally_modified="yes">
+<package name="RN4871" urn="urn:adsk.eagle:footprint:6331358/4" locally_modified="yes" library_version="37" library_locally_modified="yes">
 <smd name="5" x="-3.76" y="-2.61" dx="1.5" dy="0.7" layer="1"/>
 <smd name="4" x="-3.76" y="-1.41" dx="1.5" dy="0.7" layer="1"/>
 <smd name="3" x="-3.76" y="-0.21" dx="1.5" dy="0.7" layer="1"/>
@@ -7808,8 +7808,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <smd name="14" x="4.74" y="-0.21" dx="1.5" dy="0.7" layer="1" rot="R180"/>
 <smd name="15" x="4.74" y="0.99" dx="1.5" dy="0.7" layer="1" rot="R180"/>
 <smd name="16" x="4.74" y="2.19" dx="1.5" dy="0.7" layer="1" rot="R180"/>
-<rectangle x1="-3.01" y1="0.14" x2="-1.06" y2="2.99" layer="39"/>
-<rectangle x1="0.24" y1="-2.96" x2="3.99" y2="2.54" layer="39"/>
+<rectangle x1="-3.01" y1="0.14" x2="-1.06" y2="2.99" layer="41"/>
+<rectangle x1="0.24" y1="-2.96" x2="3.99" y2="2.54" layer="41"/>
 <wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.127" layer="21"/>
 <wire x1="-4" y1="3" x2="-4" y2="7" width="0.127" layer="21"/>
 <wire x1="-4" y1="7" x2="5" y2="7" width="0.127" layer="21"/>
@@ -7841,7 +7841,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT95P237X112-3" urn="urn:adsk.eagle:package:6355423/8" type="model" library_version="37" library_locally_modified="yes">
+<package3d name="SOT95P237X112-3" urn="urn:adsk.eagle:package:6355423/8" locally_modified="yes" type="model" library_version="37" library_locally_modified="yes">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.12 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -7854,7 +7854,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="DFN-6-3X3-SI7020"/>
 </packageinstances>
 </package3d>
-<package3d name="SOJ88P324X95-6" urn="urn:adsk.eagle:package:6651498/8" type="model" library_version="37" library_locally_modified="yes">
+<package3d name="SOJ88P324X95-6" urn="urn:adsk.eagle:package:6651498/8" locally_modified="yes" type="model" library_version="37" library_locally_modified="yes">
 <description>6-SOJ, 0.88 mm pitch, 3.24 mm span, 3.50 X 2.65 X 0.95 mm body
 &lt;p&gt;6-pin SOJ package with 0.88 mm pitch, 3.24 mm span with body size 3.50 X 2.65 X 0.95 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -7890,7 +7890,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="1X06-S"/>
 </packageinstances>
 </package3d>
-<package3d name="RN4871" urn="urn:adsk.eagle:package:6331360/16" type="model" library_version="33" library_locally_modified="yes">
+<package3d name="RN4871" urn="urn:adsk.eagle:package:6331360/16" locally_modified="yes" type="model" library_version="37" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="RN4871"/>
 </packageinstances>
@@ -8045,7 +8045,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SI2333DDS-T1-GE3" urn="urn:adsk.eagle:component:6645722/8" prefix="Q" library_version="37" library_locally_modified="yes">
+<deviceset name="SI2333DDS-T1-GE3" urn="urn:adsk.eagle:component:6645722/8" locally_modified="yes" prefix="Q" library_version="37" library_locally_modified="yes">
 <description>&lt;b&gt;MOSFET P-Ch 12V 5A TrenchFET SOT23 Vishay SI2333DDS-T1-GE3 P-channel MOSFET Transistor, 6 A, 12 V, 3-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI2333DDS-T1-GE3.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8132,7 +8132,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SMTU2450N-LF 
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPH0644HM4H-1" urn="urn:adsk.eagle:component:6651943/8" prefix="MK" library_version="37" library_locally_modified="yes">
+<deviceset name="SPH0644HM4H-1" urn="urn:adsk.eagle:component:6651943/8" locally_modified="yes" prefix="MK" library_version="37" library_locally_modified="yes">
 <description>&lt;b&gt;MEMS Microphones&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.knowles.com/eng/content/download/6318/115469/version/1/file/SPH0644HM4H-1 RevB.PDF"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8238,7 +8238,7 @@ Source: &lt;a href="http://www.knowles.com/eng/content/download/6318/115469/vers
 </device>
 </devices>
 </deviceset>
-<deviceset name="RN4871-I" urn="urn:adsk.eagle:component:6645714/11" prefix="U" library_version="37" library_locally_modified="yes">
+<deviceset name="RN4871-I" urn="urn:adsk.eagle:component:6645714/11" locally_modified="yes" prefix="U" library_version="37" library_locally_modified="yes">
 <description>Microchip RN4871 Bluetooth® 4.2 Low Energy Module
 &lt;p&gt;
 source: &lt;a href="https://www.mouser.fi/ProductDetail/Microchip-Technology/RN4871-I-RM130?qs=%2fha2pyFadugbWRblycIFPfAkyk%252bNoj4GzzqLRYkscLWoLLYIFodr6Q%3d%3d"&gt;Datasheet&lt;/a&gt;</description>
@@ -8631,7 +8631,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device="" value="BLE-SENSOR-C">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
@@ -8684,6 +8686,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="120.65" y="168.91" size="1.778" layer="97">IC2</text>
 <text x="132.08" y="168.91" size="1.778" layer="97">MK1</text>
 <text x="12.7" y="26.67" size="1.778" layer="97">Optional IO</text>
+<text x="180.34" y="7.62" size="2.54" layer="97">BLE-SENSOR-C</text>
+<text x="254" y="7.62" size="2.54" layer="97">A</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -9240,13 +9244,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="JP2" gate="A" pin="6"/>
 <wire x1="35.56" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
 <label x="45.72" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RB7" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RB7"/>
-<wire x1="83.82" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
-<label x="63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
